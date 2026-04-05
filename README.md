@@ -38,12 +38,3 @@ Data Analysis      ░░░░░░░░░░░░  Planned
 Machine Learning   ░░░░░░░░░░░░  Planned
 Deep Learning      ░░░░░░░░░░░░  Planned
 ```
-
----
-
-## 📈 GitHub Stats
-![Rami's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Rami-Manan&show_icons=true&theme=tokyonight&hide_border=true)
-
----
-
-> "Every expert was once a beginner. Keep pushing!"
