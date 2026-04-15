@@ -1,10 +1,3 @@
-/*
- * Program   : Reverse a 4-digit number
- * Author    : Manan Rami
- * Description: Extracts each digit of a 4-digit number 
- *              and recombines them in reverse order.
- */
-
 #include <stdio.h>   /* Standard I/O library for printf() and scanf() */
 
 int main()           /* Main function - program execution starts here */
