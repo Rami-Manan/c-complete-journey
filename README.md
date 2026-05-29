@@ -1,25 +1,68 @@
-# 💫 About Me:
-🎓 B.Tech CSE student at Gandhinagar University, Ahmedabad (Sem 2)<br>💻 Currently on my C programming journey — documenting everything on GitHub<br>📁 Building my repo: c-complete-journey — from basics to advanced C<br>🎯 Goal: Become a Data Scientist<br>🏎️ Formula 1 enthusiast | Ahmedabad, India
+# 🚀 C Complete Journey
 
-
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/manan_.csv) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/Manan Rami) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:mananrami09@gmail.com) 
-
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=Rami-Manan&theme=dark&hide_border=false&include_all_commits=true&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=Rami-Manan&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=Rami-Manan&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=Rami-Manan&theme=radical&no-frame=false&no-bg=false&margin-w=4)
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=Rami-Manan&limit=5&theme=dark&combine_all_yearly_contributions=true)
+A progressive C programming repository documenting my learning path — from syntax basics to pointers, memory management, and beyond.
 
 ---
-[![](https://komarev.com/ghpvc/?username=Rami-Manan&icon=0&color=0)](https://visitcount.itsvg.in)
+
+## 👨‍💻 About
+
+I'm Manan, a B.Tech CSE student and aspiring data scientist. This repo tracks my hands-on C programming practice, written and tested in Turbo C.
+
+---
+
+## 📁 Repository Structure
+
+| File | Topic |
+|------|-------|
+| `01_Hello_World.c` | First program — output with `printf()` |
+| `02_About_me.c` | String output, personal intro |
+| `03_Sum.c` | Addition of two numbers |
+| `04_sub.c` | Subtraction |
+| `05_multiplication.c` | Multiplication |
+| `06_div.c` | Division using `float` |
+| `07_Scanf.c` | User input with `scanf()` |
+| `08_simple_calculator.c` | All arithmetic operations in one program |
+
+---
+
+## 🛠️ How to Run
+
+**Using Turbo C:**
+1. Open Turbo C IDE
+2. Load the `.c` file
+3. Press `Alt + F9` to compile
+4. Press `Ctrl + F9` to run
+
+**Using GCC (Linux/Mac/Windows):**
+```bash
+gcc filename.c -o output
+./output
+```
+
+---
+
+## 📌 Topics Covered So Far
+
+- [x] Hello World & basic output
+- [x] Variables and data types (`int`, `float`)
+- [x] Arithmetic operators
+- [x] User input with `scanf()`
+- [x] Type casting
+- [ ] Conditionals (`if`, `else`, `switch`)
+- [ ] Loops (`for`, `while`, `do-while`)
+- [ ] Functions
+- [ ] Arrays & Strings
+- [ ] Pointers
+- [ ] Memory management (`malloc`, `free`)
+- [ ] File I/O
+- [ ] Structures & Unions
+
+---
+
+## 📈 Goal
+
+Build a rock-solid C foundation as part of my broader journey toward data science and systems programming.
+
+---
+
+*Updated regularly as I learn more.*
