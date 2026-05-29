@@ -48,8 +48,8 @@ gcc filename.c -o output
 - [x] Arithmetic operators
 - [x] User input with `scanf()`
 - [x] Type casting
-- [ ] Conditionals (`if`, `else`, `switch`)
-- [ ] Loops (`for`, `while`, `do-while`)
+- [x] Conditionals (`if`, `else`, `switch`)
+- [x] Loops (`for`, `while`, `do-while`)
 - [ ] Functions
 - [ ] Arrays & Strings
 - [ ] Pointers
