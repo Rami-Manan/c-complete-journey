@@ -10,21 +10,6 @@ I'm Manan, a B.Tech CSE student and aspiring data scientist. This repo tracks my
 
 ---
 
-## 📁 Repository Structure
-
-| File | Topic |
-|------|-------|
-| `01_Hello_World.c` | First program — output with `printf()` |
-| `02_About_me.c` | String output, personal intro |
-| `03_Sum.c` | Addition of two numbers |
-| `04_sub.c` | Subtraction |
-| `05_multiplication.c` | Multiplication |
-| `06_div.c` | Division using `float` |
-| `07_Scanf.c` | User input with `scanf()` |
-| `08_simple_calculator.c` | All arithmetic operations in one program |
-
----
-
 ## 🛠️ How to Run
 
 **Using Turbo C:**
@@ -50,7 +35,7 @@ gcc filename.c -o output
 - [x] Type casting
 - [x] Conditionals (`if`, `else`, `switch`)
 - [x] Loops (`for`, `while`, `do-while`)
-- [ ] Functions
+- [x] Functions
 - [ ] Arrays & Strings
 - [ ] Pointers
 - [ ] Memory management (`malloc`, `free`)
