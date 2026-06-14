@@ -36,6 +36,7 @@ gcc filename.c -o output
 - [x] Conditionals (`if`, `else`, `switch`)
 - [x] Loops (`for`, `while`, `do-while`)
 - [x] Functions
+- [ ] Recursion
 - [ ] Arrays & Strings
 - [ ] Pointers
 - [ ] Memory management (`malloc`, `free`)
