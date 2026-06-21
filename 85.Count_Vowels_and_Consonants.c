@@ -19,7 +19,7 @@ int main()
 
     for(i = 0; str[i] != '\0'; i++)
     {
-        /* Only count letters, skip digits/spaces/symbols */
+        /* Only count letters, skip digits/spaces/symbols. */
         if((str[i] >= 'a' && str[i] <= 'z') ||
            (str[i] >= 'A' && str[i] <= 'Z'))
         {
