@@ -38,7 +38,7 @@ gcc filename.c -o output
 - [x] Functions
 - [x] Recursion
 - [x] Arrays & Strings
-- [ ] Pointers
+- [x] Pointers
 - [ ] Memory management (`malloc`, `free`)
 - [ ] File I/O
 - [ ] Structures & Unions
