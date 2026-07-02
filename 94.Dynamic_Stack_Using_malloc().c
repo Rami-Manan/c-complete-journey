@@ -1,3 +1,26 @@
+/* Definition:
+Dynamic Memory Management means allocating memory at runtime (while program is running)
+ instead of at compile time. This is done using functions from <stdlib.h>. */
+
+/* malloc */
+// int *arr = (int *)malloc(n * sizeof(int));
+
+/* calloc */
+// int *arr = (int *)calloc(n, sizeof(int));
+
+/* realloc */
+ // arr = (int *)realloc(arr, newSize * sizeof(int));
+
+/* free — always do this after use! */
+ // free(arr);
+
+/*Rules
+1. Always check if returned pointer is NULL (allocation failure)
+2. Always free() memory after use → prevents memory leak
+3. Never access memory after free() → dangling pointer
+4. realloc() preserves existing data up to old size */
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
