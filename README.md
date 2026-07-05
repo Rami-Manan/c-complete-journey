@@ -39,7 +39,7 @@ gcc filename.c -o output
 - [x] Recursion
 - [x] Arrays & Strings
 - [x] Pointers
-- [ ] Memory management (`malloc`, `free`)
+- [x] Memory management (`malloc`, `free`)
 - [ ] File I/O
 - [ ] Structures & Unions
 
