@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-
+ 
 #define CREDENTIALS_FILE "users.txt"
 
 /* Save new user to file */
