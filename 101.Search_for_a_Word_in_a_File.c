@@ -1,9 +1,4 @@
-/*
- * Program     : Search for a Word in a File
- * Description : Reads file line by line, searches for target word
- *               Uses strstr() which returns pointer if substring found
- *               Counts how many lines contain the word
- */
+
 
 #include <stdio.h>
 #include <string.h>
