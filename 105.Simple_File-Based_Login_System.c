@@ -1,11 +1,3 @@
-/*
- * Program     : 
- * Description : Stores username and password in a file
- *               Reads file to verify login credentials
- *               Demonstrates real-world use of file I/O
- *               NOT secure (plain text) — for learning only
- */
-
 #include <stdio.h>
 #include <string.h>
 
