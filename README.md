@@ -40,7 +40,7 @@ gcc filename.c -o output
 - [x] Arrays & Strings
 - [x] Pointers
 - [x] Memory management (`malloc`, `free`)
-- [ ] File I/O
+- [x] File I/O
 - [ ] Structures & Unions
 
 ---
