@@ -3,7 +3,7 @@
  
 #define CREDENTIALS_FILE "users.txt"
 
-/* Save new user to file */
+/* Save new user to file. */
 void registerUser()
 {
     FILE *fp = fopen(CREDENTIALS_FILE, "a");
