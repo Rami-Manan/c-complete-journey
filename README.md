@@ -17,17 +17,6 @@ NNN_Description.c
 - `NNN` — three-digit zero-padded index (ensures correct lexicographic sort on GitHub)
 - `Description` — short, underscore-separated summary of what the program does
 
-## Topics covered so far
-
-| Range | Topics |
-|-------|--------|
-| 000–002 | Fundamentals — keywords, Hello World, basic I/O |
-| 003–006 | Arithmetic operations — sum, subtraction, multiplication, division |
-| 007–008 | Input handling (`scanf`) and a simple calculator |
-| 009+ | Geometry-based problems (e.g. area of a triangle) and beyond |
-
-*(This table will grow as more programs are added — update it alongside new commits rather than letting it drift out of sync.)*
-
 ## Running the programs
 
 Each file compiles independently with any standard C compiler:
