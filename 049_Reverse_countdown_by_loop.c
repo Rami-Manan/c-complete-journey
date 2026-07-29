@@ -8,7 +8,7 @@ int main()           /* Main function - program starts here */
     printf("Enter starting number: ");
     scanf("%d", &n);   /* Read integer input from user and store in n */
 
-    /* Validate input - number should be positive */
+    /* Validate input - number should be positive. */
     if (n < 1)
     {
         printf("Please enter a positive number!\n");

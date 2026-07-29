@@ -1,5 +1,5 @@
 /*
- * Memory leak = allocated memory never freed
+ * Memory leak = allocated memory never freed.
  * OS reclaims it when program ends, but in long-running
  * programs (servers, games) this causes crashes
  * This program shows WRONG way and RIGHT way side by side

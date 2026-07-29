@@ -2,7 +2,7 @@
 
 int main()      /* Main function - program starts here */
 { 
-    float celsius, kelvin;   /* Declare two float variables to store temperature values */
+    float celsius, kelvin;   /* Declare two float variables to store temperature values. */
   
     printf("Enter temperature in Celsius: ");    /* Ask user to enter Celsius value */
     scanf("%f", &celsius);          /* Ask user to enter Celsius value */

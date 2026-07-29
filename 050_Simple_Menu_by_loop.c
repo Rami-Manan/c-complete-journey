@@ -4,7 +4,7 @@ int main()
 {
     int choice;   /* Variable to store user's menu selection */
 
-    do   /* do-while loop: runs at least once, repeats until user exits */
+    do   /* do-while loop: runs at least once, repeats until user exits. */
     {
         /* Display menu options */
         printf("\n1. Hello");

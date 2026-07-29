@@ -4,7 +4,7 @@
 /* Define node structure */
 struct Node
 {
-    int         data;    /* Data stored in node */
+    int         data;    /* Data stored in node. */
     struct Node *next;   /* Pointer to next node */
 };
 

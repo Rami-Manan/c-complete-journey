@@ -5,7 +5,7 @@ int main()           /* Main function - program starts here */
     float Celsius, Fahrenheit;   /* Celsius = user input, Fahrenheit = result */
 
     printf("Enter a value of Celsius : ");   /* Prompt user to enter Celsius value */
-    scanf("%f", &Celsius);                   /* Read and store float input in Celsius */
+    scanf("%f", &Celsius);                   /* Read and store float input in Celsius. */
 
     Fahrenheit = (Celsius * 9 / 5) + 32;    /* Apply conversion formula :
                                                Fahrenheit = (Celsius * 9 / 5) + 32 */

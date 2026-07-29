@@ -1,6 +1,6 @@
 #include <stdio.h>   /* Standard I/O library for printf() and scanf() */
 
-int main()           /* Main function - program starts executing here */
+int main()           /* Main function - program starts executing here. */
 {
     int a;           /* Variable to store the user's input number */
 

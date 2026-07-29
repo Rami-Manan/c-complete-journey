@@ -9,7 +9,7 @@ int main()           /* Main function - program starts here */
 
     printf("Before Swapping : A = %d , B = %d\n", a, b);   /* Print values before swap */
 
-    /* Swapping Logic using Multiplication and Division */
+    /* Swapping Logic using Multiplication and Division. */
     a = a * b;   /* Step 1 : a now holds product of both numbers */
     b = a / b;   /* Step 2 : divide product by b to get original a */
     a = a / b;   /* Step 3 : divide product by new b to get original b */

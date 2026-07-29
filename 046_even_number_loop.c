@@ -9,7 +9,7 @@
 int main()           /* Main function - program starts here */
 {
     int i = 2;       /* Start from 2, the first even number */
-    int n;           /* Variable to store the user's limit */
+    int n;           /* Variable to store the user's limit. */
 
     printf("Enter limit: ");   /* Ask user to enter the limit */
     scanf("%d", &n);           /* Read and store the limit in n */

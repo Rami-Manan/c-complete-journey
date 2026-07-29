@@ -1,7 +1,7 @@
 #include <stdio.h>   /* Standard library for printf() and scanf() */
 int main()           /* Main function - program starts here */
 {
-    float Kelvin, Celsius;   /* Declare two float variables to store temperature values */
+    float Kelvin, Celsius;   /* Declare two float variables to store temperature values. */
 
     printf("Enter Value of Kelvin : ");   /* Ask user to enter Kelvin value */
     scanf("%f", &Kelvin);                 /* Read the Kelvin value entered by user */

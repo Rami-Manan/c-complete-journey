@@ -2,7 +2,7 @@
 
 int main()           /* Main function - program execution starts here */
 {
-    int year;   /* Declare an integer variable to store the year */
+    int year;   /* Declare an integer variable to store the year. */
 
     scanf("%d", &year);   /* Read year from the user */
 

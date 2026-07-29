@@ -2,7 +2,7 @@
 
 int main()           /* Main function - program starts here */
 {
-    int a = 8, b = 7, c;   /* Declare integers a, b with values and c for result */
+    int a = 8, b = 7, c;   /* Declare integers a, b with values and c for result. */
 
     printf("The value of A = %d\n", a);    /* Print value of a */
     printf("The value of B = %d\n", b);    /* Print value of b */

@@ -5,7 +5,7 @@ int main()
     int n, count = 0;   /* n = input number, count = digit counter (starts at 0) */
 
     printf("Enter a number: ");   /* Prompt user to enter a number */
-    scanf("%d", &n);              /* Read the integer input from user */
+    scanf("%d", &n);              /* Read the integer input from user. */
 
     do {
         n /= 10;    /* Remove the last digit by dividing by 10 */

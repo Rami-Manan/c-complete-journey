@@ -8,7 +8,7 @@ int main()           /* Main function - program starts here */
                                                        principal= initial amount invested
                                                        simple_interest = calculated result  */
 
-    printf("Enter a value for principal : ");    /* Prompt user to enter principal amount */
+    printf("Enter a value for principal : ");    /* Prompt user to enter principal amount. */
     scanf("%f", &principal);                     /* Read and store float input in principal */
 
     printf("Enter a value for rate : ");         /* Prompt user to enter rate of interest */

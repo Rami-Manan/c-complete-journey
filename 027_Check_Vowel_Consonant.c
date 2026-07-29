@@ -4,7 +4,7 @@ int main()           /* Main function - program execution starts here */
 {
     char ch;   /* Declare a character variable to store user input */
 
-    scanf(" %c", &ch);   /* Read a single character from the user 
+    scanf(" %c", &ch);   /* Read a single character from the user.
                             (space before %c skips any whitespace/newline) */
 
     if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||   /* Check lowercase vowels */

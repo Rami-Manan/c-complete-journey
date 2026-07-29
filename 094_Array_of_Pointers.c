@@ -2,7 +2,7 @@
 
 int main()
 {
-    /* Array of 5 string pointers — each points to a different string */
+    /* Array of 5 string pointers — each points to a different string. */
     char *languages[] = {
         "C",
         "Python",

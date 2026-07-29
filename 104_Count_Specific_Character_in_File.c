@@ -15,7 +15,7 @@ int main()
     }
 
     printf("Enter character to count: ");
-    scanf(" %c", &target);   /* Space before %c skips whitespace */
+    scanf(" %c", &target);   /* Space before %c skips whitespace. */
 
     while((ch = fgetc(fp)) != EOF)
     {

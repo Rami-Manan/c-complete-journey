@@ -1,7 +1,7 @@
 /*Definition
 
 File I/O means reading data from a file or writing data to a file on disk so that data 
-is permanently saved even after the program ends.
+is permanently saved even after the program ends
 
   File Opening Modes:
 Mode   Meaning
@@ -35,7 +35,7 @@ FILE *fp;                        /* Step 1: Declare file pointer */
 
 Data is permanent — survives after program ends
 Used in real systems: student records, banking, hospitals
-Foundation of all database-like programs in C */
+Foundation of all database-like programs in C. */
 
 #include <stdio.h>
 

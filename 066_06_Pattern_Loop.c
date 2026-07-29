@@ -10,7 +10,7 @@ int main()
         /* Inner loop: prints characters in each row */
         for(int j = 1; j <= i; j++)
         {
-            printf("%c ", ch);   /* Print current character */
+            printf("%c ", ch);   /* Print current character. */
             ch++;                /* Move to next character */
         }
 

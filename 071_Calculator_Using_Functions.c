@@ -9,7 +9,7 @@ float subtract(float a, float b);
 float multiply(float a, float b);
 float divide(float a, float b);
 
-/* Add two numbers and return result */
+/* Add two numbers and return result. */
 float add(float a, float b)
 {
     return a + b;

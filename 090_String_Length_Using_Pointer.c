@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* Count characters using pointer arithmetic */
+/* Count characters using pointer arithmetic. */
 int strLenPtr(char *ptr)
 {
     int count = 0;

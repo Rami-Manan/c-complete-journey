@@ -6,7 +6,7 @@ int main()           /* Main function - program execution starts here */
 
     scanf("%d", &marks);   /* Read marks from the user */
 
-    if(marks >= 90)                 /* If marks are 90 or above */
+    if(marks >= 90)                 /* If marks are 90 or above. */
         printf("Grade A");          /* Print Grade A */
     else if(marks >= 75)            /* Else if marks are 75 or above */
         printf("Grade B");          /* Print Grade B */

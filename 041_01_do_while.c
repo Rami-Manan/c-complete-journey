@@ -11,7 +11,7 @@ int main()           /* Main function - program starts here */
 
     } while (i <= 10);      /* Keep looping as long as i is less than or equal to 10 */
 
-    printf("\n");    /* Move to next line after all numbers are printed */
+    printf("\n");    /* Move to next line after all numbers are printed. */
 
     return 0;        /* Return 0 = program executed successfully */
 }

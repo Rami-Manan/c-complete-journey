@@ -24,7 +24,7 @@ int main()
     {
         lineNum++;
 
-        if(strstr(line, word) != NULL)   /* strstr returns NULL if not found */
+        if(strstr(line, word) != NULL)   /* strstr returns NULL if not found. */
         {
             printf("Found \"%s\" on line %d: %s", word, lineNum, line);
             found++;

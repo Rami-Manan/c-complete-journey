@@ -10,7 +10,7 @@ int main()           /* Main function - program execution starts here */
     d1 = a % 10;     /* Extract last digit (units place) */
     a = a / 10;      /* Remove last digit */
 
-    d2 = a % 10;     /* Extract next digit (tens place) */
+    d2 = a % 10;     /* Extract next digit (tens place). */
     a = a / 10;      /* Remove digit */
 
     d3 = a % 10;     /* Extract next digit (hundreds place) */

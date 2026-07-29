@@ -2,7 +2,7 @@
 
 int main()
 {
-    int n;          /* Variable to store the user's input number */
+    int n;          /* Variable to store the user's input number. */
     int i = 1;      /* Loop counter, starts from 1 */
     int fact = 1;   /* Stores the factorial result, initialized to 1 (not 0!) */
 

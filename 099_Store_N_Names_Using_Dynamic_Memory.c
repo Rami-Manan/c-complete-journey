@@ -5,7 +5,7 @@
 int main()
 {
     int n, i;
-    char **names;       /* Array of string pointers */
+    char **names;       /* Array of string pointers. */
     char temp[100];     /* Temporary input buffer */
 
     printf("How many names? ");

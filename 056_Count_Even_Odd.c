@@ -11,7 +11,7 @@ int main()
        e.g. -123 % 10 = -3, which fails the even check
        So we convert n to positive using abs() logic */
     if(n < 0)
-        n = -n;   /* Make negative number positive before processing */
+        n = -n;   /* Make negative number positive before processing. */
 
     /* Edge case: if user enters 0, it has one even digit */
     if(n == 0) {

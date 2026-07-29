@@ -2,7 +2,7 @@
 
 int main()
 {
-    int n, i;   /* n = upper limit entered by user, i = loop counter */
+    int n, i;   /* n = upper limit entered by user, i = loop counter. */
     
     printf("Enter value of N: ");
     scanf("%d", &n);   /* Read the value of N from user */

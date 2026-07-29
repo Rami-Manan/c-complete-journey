@@ -6,7 +6,7 @@ LCM (Least Common Multiple): It is the smallest number that is a multiple of all
 
 #include <stdio.h>
 
-/* Find GCD using Euclidean algorithm */
+/* Find GCD using Euclidean algorithm. */
 int findGCD(int a, int b)
 {
     while(b != 0)

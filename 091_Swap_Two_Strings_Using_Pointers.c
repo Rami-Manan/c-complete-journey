@@ -5,7 +5,7 @@ void swapStrings(char **s1, char **s2)
 {
     char *temp = *s1;   /* Save address of first string */
     *s1 = *s2;          /* First pointer now points to second string */
-    *s2 = temp;         /* Second pointer now points to first string */
+    *s2 = temp;         /* Second pointer now points to first string. */
 }
 
 int main()

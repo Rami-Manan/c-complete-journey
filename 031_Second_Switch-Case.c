@@ -12,7 +12,7 @@ int main()           /* Main function - program execution starts here */
 
     /* Ask user to enter two numbers */
     printf("Enter any two numbers: ");
-    scanf("%d %d", &a, &b);   /* Read two integers from user */
+    scanf("%d %d", &a, &b);   /* Read two integers from user. */
 
     /* Switch statement to perform operation based on operator */
     switch(ch)

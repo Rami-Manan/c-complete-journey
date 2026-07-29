@@ -8,7 +8,7 @@ int main()
     printf("Enter a number: ");
     scanf("%d", &n);
 
-    temp = n;   /* Store original number for comparison at the end */
+    temp = n;   /* Store original number for comparison at the end. */
 
     /* Loop through each digit of the number */
     for (; n != 0; n /= 10)

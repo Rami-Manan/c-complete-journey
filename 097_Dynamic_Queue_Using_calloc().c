@@ -4,7 +4,7 @@
 int *queue;
 int front = 0, rear = 0, capacity;
 
-/* Add element to rear of queue */
+/* Add element to rear of queue. */
 void enqueue(int val)
 {
     if(rear == capacity)

@@ -12,7 +12,7 @@ float divide(float a, float b)
 
 int main()
 {
-    /* Declare a function pointer that takes 2 floats and returns float */
+    /* Declare a function pointer that takes 2 floats and returns float. */
     float (*operation)(float, float);
 
     float a, b;

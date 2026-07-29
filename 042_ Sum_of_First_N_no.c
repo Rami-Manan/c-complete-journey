@@ -6,7 +6,7 @@ int main()           /* Main function - program starts here */
     int i = 1;       /* Loop counter - starts from 1 */
     int sum = 0;     /* Stores the running total, initialized to 0 */
 
-    do               /* do-while executes the block at least once before checking condition */
+    do               /* do-while executes the block at least once before checking condition. */
     {
         sum += i;    /* Add current value of i to sum (same as sum = sum + i) */
         i++;         /* Increment i by 1 for next iteration */

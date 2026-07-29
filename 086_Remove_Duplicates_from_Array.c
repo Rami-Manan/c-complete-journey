@@ -16,7 +16,7 @@ int main()
     {
         isDuplicate = 0;
 
-        /* Check if arr[i] already exists in result[] */
+        /* Check if arr[i] already exists in result[]. */
         for(j = 0; j < resultSize; j++)
         {
             if(result[j] == arr[i])

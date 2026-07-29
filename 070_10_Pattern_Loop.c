@@ -14,7 +14,7 @@ int main()
             num++;
         }
 
-        printf("\n");   /* Move to next line */
+        printf("\n");   /* Move to next line. */
     }
 
     num--;   /* Adjust value after upper half */

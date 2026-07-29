@@ -15,7 +15,7 @@ int main()
         return 1;
     }
 
-    merged = fopen("merged.txt", "w");   /* Output file */
+    merged = fopen("merged.txt", "w");   /* Output file. */
 
     if(merged == NULL)
     {

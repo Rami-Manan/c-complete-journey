@@ -7,7 +7,7 @@ int main()
     /* -------- Upper half of the diamond (rows 1 to 5) -------- */
     for(i = 1; i <= 5; i++)
     {
-        for(j = 1; j <= i; j++)   /* Print i stars in each row */
+        for(j = 1; j <= i; j++)   /* Print i stars in each row. */
         {
             printf("* ");
         }

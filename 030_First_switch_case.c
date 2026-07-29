@@ -2,7 +2,7 @@
 
 int main()           /* Main function - program execution starts here */
 {
-    int choice;   /* Declare an integer variable to store user input */
+    int choice;   /* Declare an integer variable to store user input. */
 
     printf("Enter a number (1-3): ");   /* Prompt user for input */
     scanf("%d", &choice);               /* Read integer from the user */

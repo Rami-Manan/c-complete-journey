@@ -8,7 +8,7 @@ int main()
     printf("Enter limit: ");
     scanf("%d", &n);   /* Read the limit from user input */
 
-    /* Edge case: if user enters 0 or negative, print a warning */
+    /* Edge case: if user enters 0 or negative, print a warning. */
     if (n < 1)
     {
         printf("Please enter a positive number!\n");

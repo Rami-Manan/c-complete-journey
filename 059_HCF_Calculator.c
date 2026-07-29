@@ -14,7 +14,7 @@ int main()
         /* If i divides both a and b evenly, it's a common factor */
         if (a % i == 0 && b % i == 0)
         {
-            hcf = i;   /* Update hcf — last valid i will be the highest */
+            hcf = i;   /* Update hcf — last valid i will be the highest. */
         }
     }
 

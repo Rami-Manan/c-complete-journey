@@ -11,7 +11,7 @@ int main()
     printf("\n--- Multiplication Table of %d ---\n", n);   /* Print table heading */
 
     do {
-        /* Print each row of the multiplication table */
+        /* Print each row of the multiplication table. */
         printf("%d x %d = %d\n", n, i, n * i);
         i++;   /* Increment counter by 1 after each iteration */
 

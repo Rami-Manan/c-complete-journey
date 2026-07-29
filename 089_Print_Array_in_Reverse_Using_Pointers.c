@@ -7,7 +7,7 @@
 // int *ptr = &a;     /* Pointer — stores ADDRESS of a */
 
 /* & = address-of operator → gives address */
-/* * = dereference operator → gives value at address */
+/* * = dereference operator → gives value at address. */
 
 // Visual:
 // Variable a:   [ 10 ]  at address 1000

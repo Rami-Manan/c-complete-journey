@@ -2,7 +2,7 @@
 
 int main()           /* Main function - program execution starts here */
 {
-    float Fahrenheit, Kelvin;   /* Declare float variables for temperature values */
+    float Fahrenheit, Kelvin;   /* Declare float variables for temperature values. */
 
     /* Ask user to enter Fahrenheit value */
     printf("Enter a value of Fahrenheit: ");

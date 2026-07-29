@@ -8,7 +8,7 @@ int main()           /* Main function - program starts here */
     /* Loop runs until all digits are extracted (n becomes 0) */
     while (n != 0)
     {
-        sum = sum + (n % 10);  /* Extract last digit using modulus and add to sum */
+        sum = sum + (n % 10);  /* Extract last digit using modulus and add to sum. */
         n = n / 10;            /* Remove last digit by dividing n by 10 */
     }
 

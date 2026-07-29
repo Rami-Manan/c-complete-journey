@@ -9,7 +9,7 @@ int main()           /* Main function - program starts here */
 
     c = a + b;               /* Add a and b, store result in c */
 
-    printf("Sum = %d\n", c); /* Print the result of addition */
+    printf("Sum = %d\n", c); /* Print the result of addition. */
 
     return 0;   /* Return 0 = program executed successfully */
 }

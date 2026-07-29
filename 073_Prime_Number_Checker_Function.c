@@ -5,7 +5,7 @@ int isPrime(int n)
 {
     int i;
 
-    if(n <= 1) return 0;   /* 0 and 1 are not prime */
+    if(n <= 1) return 0;   /* 0 and 1 are not prime. */
 
     for(i = 2; i * i <= n; i++)   /* Check divisors up to sqrt(n) */
     {

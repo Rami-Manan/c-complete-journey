@@ -4,7 +4,7 @@
 int main()
 {
     int *arr;
-    int size     = 2;    /* Start small */
+    int size     = 2;    /* Start small. */
     int count    = 0;
     int input;
 

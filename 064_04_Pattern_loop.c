@@ -11,7 +11,7 @@ int main()
         /* Inner loop: prints 'i' numbers in each row */
         for(j = 1; j <= i; j++)
         {
-            printf("%d ", num);   /* Print current number with a space */
+            printf("%d ", num);   /* Print current number with a space. */
             num--;                /* Decrement number after each print */
         }
 

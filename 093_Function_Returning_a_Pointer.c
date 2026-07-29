@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* Returns pointer to the larger of two numbers */
+/* Returns pointer to the larger of two numbers. */
 int* findLarger(int *a, int *b)
 {
     if(*a > *b)

@@ -2,7 +2,7 @@
 
 int main()           /* Main function - program execution starts here */
 {
-    int a, b;   /* Declare two integer variables to store user input */
+    int a, b;   /* Declare two integer variables to store user input. */
 
     scanf("%d %d", &a, &b);   /* Read two integers from the user */
 

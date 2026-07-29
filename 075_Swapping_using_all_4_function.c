@@ -6,7 +6,7 @@ There are two types of functions
  *   1. With argument, with return value
  *   2. With argument, without return value
  *   3. Without argument, with return value
- *   4. Without argument, without return value
+ *   4. Without argument, without return value.
  */
 
 #include <stdio.h>

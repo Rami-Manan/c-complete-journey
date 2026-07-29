@@ -3,7 +3,7 @@
 /* Returns 1 if character is a vowel */
 int isVowel(char c)
 {
-    /* Convert to lowercase before checking */
+    /* Convert to lowercase before checking. */
     if(c >= 'A' && c <= 'Z') c = c + 32;
 
     return (c=='a' || c=='e' || c=='i' || c=='o' || c=='u');

@@ -10,7 +10,7 @@ int main()
     scanf("%d", &base);          /* Read base value */
 
     printf("Enter exponent: ");
-    scanf("%d", &exp);           /* Read exponent value */
+    scanf("%d", &exp);           /* Read exponent value. */
 
     /* Edge case: if exponent is 0, any number^0 = 1 */
     if (exp == 0) {

@@ -13,7 +13,7 @@ int main()           /* Main function - program starts here */
     printf("\nBefore Swapping : A = %d, B = %d\n", a, b);   /* Print values before swap */
 
     /* Swapping Logic without temp variable */
-    a = a + b;   /* Step 1 : a now holds sum of both numbers */
+    a = a + b;   /* Step 1 : a now holds sum of both numbers. */
     b = a - b;   /* Step 2 : subtract b from sum to get original a */
     a = a - b;   /* Step 3 : subtract new b (original a) to get original b */
 

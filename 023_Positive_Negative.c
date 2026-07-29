@@ -7,7 +7,7 @@ int main()           /* Main function - program starts here */
     printf("Enter a value: ");   /* Prompt user to enter a number */
     scanf("%d", &a);             /* Read integer input and store in variable 'a' */
 
-    if (a > 0)                   /* Check if the number is greater than zero */
+    if (a > 0)                   /* Check if the number is greater than zero. */
     {
         printf("Positive\n");    /* Print "Positive" if condition is true */
     }

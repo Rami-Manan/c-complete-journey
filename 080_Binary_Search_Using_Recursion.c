@@ -5,7 +5,7 @@ int binarySearch(int arr[], int low, int high, int target)
 {
     if(low > high) return -1;                  /* Base case: not found */
 
-    int mid = (low + high) / 2;               /* Find middle index */
+    int mid = (low + high) / 2;               /* Find middle index. */
 
     if(arr[mid] == target) return mid;         /* Found at mid */
     else if(arr[mid] > target)

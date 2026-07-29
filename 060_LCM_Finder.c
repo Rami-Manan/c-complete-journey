@@ -2,7 +2,7 @@
 
 int main()
 {
-    int a, b, max;   /* a, b = input numbers | max = larger of the two */
+    int a, b, max;   /* a, b = input numbers | max = larger of the two. */
 
     /* Take two numbers as input from user */
     printf("Enter two numbers: ");

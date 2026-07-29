@@ -6,7 +6,7 @@ int main()           /* Main function - program starts here */
     int c, d, e, g;   /* Declare integers for add, sub, mul, modulo */
     float f;          /* Declare float for division result */
 
-    printf("Enter a number for A : ");    /* Prompt user to enter value for A */
+    printf("Enter a number for A : ");    /* Prompt user to enter value for A. */
     scanf("%d", &a);                      /* Read and store integer input in a */
 
     printf("Enter a number for B : ");    /* Prompt user to enter value for B */

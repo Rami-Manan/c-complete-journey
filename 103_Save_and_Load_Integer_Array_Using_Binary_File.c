@@ -13,7 +13,7 @@ int main()
     fp = fopen("array.bin", "wb");
     if(fp == NULL) { printf("Cannot create file!\n"); return 1; }
 
-    fwrite(arr, sizeof(int), SIZE, fp);   /* Write all 5 integers at once */
+    fwrite(arr, sizeof(int), SIZE, fp);   /* Write all 5 integers at once. */
     fclose(fp);
     printf("Array written to array.bin\n");
 

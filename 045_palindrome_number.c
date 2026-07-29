@@ -4,7 +4,7 @@ int main()
 {
     int n, temp, rev = 0;
     printf("Enter a number : ");
-    scanf("%d", &n);    /* Take number input from user */
+    scanf("%d", &n);    /* Take number input from user. */
 
     temp = n;   /* Save original number in temp before we start modifying n */
 

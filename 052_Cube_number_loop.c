@@ -4,7 +4,7 @@ int main()           /* Main function - program starts here */
 {
     int n;           /* Variable to store the limit entered by user */
 
-    /* Ask user to enter the limit */
+    /* Ask user to enter the limit. */
     printf("Enter limit: ");
     scanf("%d", &n);   /* Read integer input and store in n */
 

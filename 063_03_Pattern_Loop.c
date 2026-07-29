@@ -10,7 +10,7 @@ int main()
         /* Inner loop: prints the value of i exactly i times in each row */
         for(j = 1; j <= i; j++)
         {
-            printf("%d ", i);  /* Print current row number followed by a space */
+            printf("%d ", i);  /* Print current row number followed by a space. */
         }
 
         printf("\n");  /* Move to next line after each row is complete */

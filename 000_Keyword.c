@@ -14,7 +14,7 @@ int main() {
     if(choice == 1) {
 
         /*
-        OLD TURBO C KEYWORDS
+        OLD TURBO C KEYWORDS.
         */
 
         printf("\n===== OLD TURBO C KEYWORDS =====\n\n");

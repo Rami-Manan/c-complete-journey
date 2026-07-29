@@ -8,7 +8,7 @@ int main()
         /* Inner loop: prints characters from a to current character */
         for(char j = 'a'; j <= i; j++)
         {
-            printf("%c ", j);   /* Print current character */
+            printf("%c ", j);   /* Print current character. */
         }
 
         printf("\n");   /* Move to next line */

@@ -9,7 +9,7 @@ int main()
     {
          printf(". ");  /* Print a dot with space */
          
-        /* Inner loop 1: prints dots equal to current row number */
+        /* Inner loop 1: prints dots equal to current row number. */
         for (j = 1; j <= i; j++)
         {
              printf("* ");  /* Print a star with space */

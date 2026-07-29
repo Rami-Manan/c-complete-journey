@@ -6,7 +6,7 @@ int main()
     int *start = arr;                /* Pointer to first element */
     int *end   = arr + (sizeof(arr)/sizeof(arr[0]));  /* Pointer past last element */
 
-    /* Pointer subtraction gives number of elements between them */
+    /* Pointer subtraction gives number of elements between them. */
     int count = end - start;
 
     printf("Array  : ");

@@ -1,7 +1,7 @@
 #include<stdio.h>      /* Standard I/O library for printf() and scanf() */
 int main()             /* Main function - program starts here */
 {
-  int a, b;            /* Declare two integer variables to store user input */
+  int a, b;            /* Declare two integer variables to store user input. */
   
 printf("Enter a Number for A =");   /* Prompt user to enter value for A */
 scanf("%d", &a);                    /* Read integer input and store in a (&a = address of a) */ 

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* Count zeros by checking each digit recursively */
+/* Count zeros by checking each digit recursively. */
 int countZeros(int n)
 {
     if(n == 0) return 0;                        /* Base case */

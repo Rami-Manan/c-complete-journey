@@ -12,7 +12,7 @@ int isArmstrong(int n)
 
     while(n != 0)
     {
-        digit = n % 10;        /* Extract last digit */
+        digit = n % 10;        /* Extract last digit. */
         sum += digit * digit * digit;   /* Cube it and add */
         n /= 10;               /* Remove last digit */
     }

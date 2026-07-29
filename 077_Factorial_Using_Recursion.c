@@ -6,7 +6,7 @@
 /*syntax 
 void recursiveFunction()
 {
-    if(base_condition)   /* Base case - MUST exist to stop infinite loop */
+    if(base_condition)   /* Base case - MUST exist to stop infinite loop. */
       //  return;
 
     /*recursiveFunction();   //Function calls itself 

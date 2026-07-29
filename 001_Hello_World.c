@@ -1,4 +1,4 @@
-#include <stdio.h>   /* Include standard input/output library for printf() */
+#include <stdio.h>   /* Include standard input/output library for printf(). */
 
 int main()           /* Main function - entry point of every C program */
 

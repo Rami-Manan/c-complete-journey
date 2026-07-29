@@ -18,7 +18,7 @@ Dynamic Memory Management means allocating memory at runtime (while program is r
 1. Always check if returned pointer is NULL (allocation failure)
 2. Always free() memory after use → prevents memory leak
 3. Never access memory after free() → dangling pointer
-4. realloc() preserves existing data up to old size */
+4. realloc() preserves existing data up to old size. */
 
 
 #include <stdio.h>

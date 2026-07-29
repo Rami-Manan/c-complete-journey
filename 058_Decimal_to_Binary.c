@@ -17,7 +17,7 @@ int main()
     /* Handle negative numbers */
     if (n < 0) {
         printf("Please enter a positive number.\n");
-        return 1;   /* Return 1 = program exited due to an error */
+        return 1;   /* Return 1 = program exited due to an error. */
     }
 
     /* Repeatedly divide by 2 and store remainders (LSB to MSB) */

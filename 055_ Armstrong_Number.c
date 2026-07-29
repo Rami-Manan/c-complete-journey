@@ -7,7 +7,7 @@ int main()
     printf("Enter a number: ");
     scanf("%d", &n);            /* Read integer input from user */
 
-    temp = n;                   /* Save original number for final comparison */
+    temp = n;                   /* Save original number for final comparison. */
 
     /* Loop through each digit by removing last digit one by one */
     for (; n != 0; n /= 10)

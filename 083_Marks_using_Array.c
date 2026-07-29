@@ -9,7 +9,7 @@
 // 1. All elements must be of SAME data type
 // 2. Index always starts from 0
 // 3. Size must be fixed at declaration (in basic C)
-// 4. arr[i] is same as *(arr + i) using pointers 
+// 4. arr[i] is same as *(arr + i) using pointers. 
 
 
 #include <stdio.h>

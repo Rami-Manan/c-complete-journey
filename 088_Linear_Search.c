@@ -29,4 +29,5 @@ int main()
         printf("%d not found in array\n", target);
 
     return 0;
+    
 }

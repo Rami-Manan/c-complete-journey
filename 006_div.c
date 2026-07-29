@@ -3,7 +3,7 @@
 int main()           /* Main function - program starts here */
 {
     float a = 4, b = 2, c;   /* Declare float variables a, b with values and c for result */
-                              /* float is used instead of int to handle decimal results */
+                              /* float is used instead of int to handle decimal results. */
 
     printf("The value of A = %.2f\n", a);    /* Print value of a upto 2 decimal places */
     printf("The value of B = %.2f\n", b);    /* Print value of b upto 2 decimal places */

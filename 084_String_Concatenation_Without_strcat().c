@@ -12,7 +12,7 @@ Syntax:*/
 strrev(s)       Reverse string      strrev("abc") = "cba" */
 /* Rule
 /* 1. Always declare size 1 more than needed (for '\0')
-/* 2. Use strcmp() to compare strings, NOT == operator
+/* 2. Use strcmp() to compare strings, NOT == operator.
 3. String ends at '\0' — never forget it */
 
 #include <stdio.h>

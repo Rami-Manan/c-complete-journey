@@ -4,7 +4,7 @@ int main()           /* Main function - program starts here */
 {
     int a, b, temp;   /* a, b = numbers to swap, temp = temporary storage */
 
-    printf("Enter value for A : ");   /* Prompt user to enter value for A */
+    printf("Enter value for A : ");   /* Prompt user to enter value for A. */
     scanf("%d", &a);                  /* Read and store input in a */
 
     printf("Enter value for B : ");   /* Prompt user to enter value for B */
