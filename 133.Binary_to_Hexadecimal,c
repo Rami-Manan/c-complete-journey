@@ -1,0 +1,85 @@
+/*
+ * Program     : Binary to Hexadecimal Conversion
+ * Description : Converts binary number to hexadecimal
+ *               Method: Group binary digits into sets of 4 from right
+ *               Each group of 4 bits = one hex digit (0-F)
+ *               Example: 1111 1111 → F F → Hex: FF
+ *               Shortcut: Binary → Decimal → Hex
+ */
+
+#include <stdio.h>
+#include <math.h>
+
+/* Binary to Decimal (helper) */
+int binaryToDecimal(long long binary)
+{
+    int decimal = 0, pos = 0;
+    while(binary != 0)
+    {
+        decimal += (binary % 10) * (int)pow(2, pos++);
+        binary  /= 10;
+    }
+    return decimal;
+}
+
+/* Decimal to Hex (helper) */
+void decimalToHex(int n)
+{
+    char hex[20];
+    char digits[] = "0123456789ABCDEF";
+    int  i = 0, j;
+    while(n > 0) { hex[i++] = digits[n%16]; n/=16; }
+    for(j = i-1; j >= 0; j--) printf("%c", hex[j]);
+}
+
+/* Show grouping of binary into 4-bit groups */
+void showGrouping(long long binary)
+{
+    char hexDigits[] = "0123456789ABCDEF";
+    int  bits[64], i = 0, j;
+    long long temp = binary;
+
+    while(temp != 0) { bits[i++] = temp % 10; temp /= 10; }
+
+    /* Pad to make total bits divisible by 4 */
+    while(i % 4 != 0) bits[i++] = 0;
+
+    printf("4-bit Groups (right to left):\n");
+    for(j = i-1; j >= 0; j -= 4)
+    {
+        /* Each group of 4 bits → one hex digit */
+        int val = bits[j]*8 + bits[j-1]*4 + bits[j-2]*2 + bits[j-3]*1;
+        printf("  [%d%d%d%d] = %d → %c\n",
+               bits[j], bits[j-1], bits[j-2], bits[j-3],
+               val, hexDigits[val]);
+    }
+}
+
+int main()
+{
+    long long binary;
+
+    printf("========== BINARY TO HEXADECIMAL ==========\n\n");
+
+    printf("Enter a binary number: ");
+    scanf("%lld", &binary);
+
+    printf("\nMethod: Group bits into sets of 4 from right\n\n");
+    showGrouping(binary);
+
+    int decimal = binaryToDecimal(binary);
+    printf("\nBinary %lld → Decimal %d → Hex: ", binary, decimal);
+    decimalToHex(decimal);
+    printf("\n");
+
+    printf("\n── 4-bit to Hex Reference ──\n");
+    printf("Binary   Hex\n");
+    printf("0000   → 0\n");
+    printf("0001   → 1\n");
+    printf("0100   → 4\n");
+    printf("1000   → 8\n");
+    printf("1010   → A\n");
+    printf("1111   → F\n");
+
+    return 0;
+}
