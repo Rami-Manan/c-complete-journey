@@ -5,7 +5,7 @@ int main()
     /* Outer loop: controls the number of rows (5 down to 1) */
     for (int i = 5; i >= 1; i--)
     {
-        /* Inner loop: prints numbers from i down to 1 in each row */
+        /* Inner loop: prints numbers from i down to 1 in each row. */
         for (int j = i; j >= 1; j--)
         {
             printf("%d ", j);   /* Print current number followed by a space. */
