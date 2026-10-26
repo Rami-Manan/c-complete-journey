@@ -18,7 +18,7 @@
 #define BINFILE    "student_data.bin"
 #define COPYFILE   "student_copy.txt"
 
-/* Student structure for binary file demo */
+/* Student structure for binary file demo. */
 typedef struct
 {
     char  name[50];
