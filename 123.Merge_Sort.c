@@ -21,7 +21,7 @@ void printArray(int arr[], int n)
     printf("\n");
 }
 
-/* ── Merge two sorted halves into one sorted array ── */
+/* ── Merge two sorted halves into one sorted array. ── */
 void merge(int arr[], int left, int mid, int right)
 {
     int i, j, k;
