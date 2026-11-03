@@ -10,7 +10,7 @@ int main()
 
     temp = n;   /* Store original number for comparison at the end. */
 
-    /* Loop through each digit of the number */
+    /* Loop through each digit of the number. */
     for (; n != 0; n /= 10)
     {
         rem = n % 10;   /* Extract the last digit */
