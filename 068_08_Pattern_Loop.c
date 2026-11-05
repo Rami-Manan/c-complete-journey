@@ -2,7 +2,7 @@
 
 int main()
 {
-    /* Outer loop: controls rows from e to a */
+    /* Outer loop: controls rows from e to a. */
     for(char i = 'e'; i >= 'a'; i--)
     {
         /* Inner loop: prints characters from a to current character */
