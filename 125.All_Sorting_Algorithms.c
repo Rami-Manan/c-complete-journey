@@ -55,7 +55,7 @@ void bubbleSort(int arr[], int n)
 /* ════════════════════════════════════════
    2. SELECTION SORT
    Find minimum element, place at beginning
-   Divides array into sorted and unsorted parts
+   Divides array into sorted and unsorted parts.
    Time: O(n²) | Space: O(1)
    ════════════════════════════════════════ */
 void selectionSort(int arr[], int n)
