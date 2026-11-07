@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* Recursively sum digits of n */
+/* Recursively sum digits of n. */
 int sumOfDigits(int n)
 {
     if(n == 0) return 0;              /* Base case */
