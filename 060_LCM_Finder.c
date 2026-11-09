@@ -4,14 +4,14 @@ int main()
 {
     int a, b, max;   /* a, b = input numbers | max = larger of the two. */
 
-    /* Take two numbers as input from user */
+    /* Take two numbers as input from user. */
     printf("Enter two numbers: ");
     scanf("%d %d", &a, &b);
 
     /* Input validation - avoid division by zero */
     if (a <= 0 || b <= 0) {
         printf("Error: Please enter positive numbers only.\n");
-        return 1;   /* Return 1 = program ended with an error */
+        return 1;   /* Return 1 = program ended with an error. */
     }
 
     /* Start checking from the larger number (LCM can't be smaller than max) */
