@@ -1,6 +1,6 @@
 #include <stdio.h>   /* Standard I/O library for printf() */
 
-int main()           /* Main function - program starts here */
+int main()           /* Main function - program starts here. */
 {
     int a = 8, b = 7, c;   /* Declare integers a, b with values and c for result. */
 
