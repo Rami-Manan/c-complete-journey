@@ -1,6 +1,6 @@
 #include <stdio.h>   /* Standard I/O library for printf() and scanf() */
 
-int main()           /* Main function - program execution starts here */
+int main()           /* Main function - program execution starts here. */
 {
     int a, d1, d2, d3, d4, rev;  
 
