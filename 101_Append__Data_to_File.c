@@ -1,7 +1,7 @@
 /*Definition
 
 File I/O means reading data from a file or writing data to a file on disk so that data 
-is permanently saved even after the program ends
+is permanently saved even after the program ends.
 
   File Opening Modes:
 Mode   Meaning
