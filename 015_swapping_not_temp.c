@@ -1,10 +1,10 @@
 #include <stdio.h>   /* Standard I/O library for printf() and scanf() */
 
-int main()           /* Main function - program starts here. */
+int main()           /* Main function - program starts here */
 {
     int a, b;   /* Declare two integers for swapping */
 
-    printf("Enter 2 Numbers for swapping : ");   /* Prompt user to enter two numbers */
+    printf("Enter 2 Numbers for swapping : ");   /* Prompt user to enter two numbers. */
     scanf("%d %d", &a, &b);                      /* Read and store both inputs at once */
 
     printf("Before Swapping : A = %d , B = %d\n", a, b);   /* Print values before swap */
